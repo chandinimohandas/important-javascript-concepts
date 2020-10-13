@@ -5,6 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript Interview concepts</title>
+
+    <!-- <style>
+        // for event bubbling and capturing
+        div {
+            border: 1px solid black;
+            padding: 1rem;
+        }
+    </style> -->
 </head>
 
 <body>
@@ -28,7 +36,25 @@
     <script src="debouncing.js"></script> -->
 
     <!-- Object.create vs Object.assign -->
-    <script src="object-create-assign.js"></script>
+    <!-- <script src="object-create-assign.js"></script> -->
+
+    <!-- Event bubbling and capturing/trickling -->
+    <!--uncomment the styling to see the borders of the divs-->
+    <!-- <div id="grandparent">
+        <div id="parent">
+            <div id="child">
+
+            </div>
+        </div>
+    </div>
+    <script src="event-bubbling-capturing.js"></script> -->
+
+    <!-- Event delegation -->
+    <div id="login">
+        <input type="text" id="firstname">
+        <input type="text" id="lastname">
+    </div>
+    <script src="event-delegation.js"></script>
 </body>
 
 </html>
